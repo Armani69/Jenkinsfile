@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo 'Cloning repository...'
-                git branch: 'main', url: 'https://github.com/Armani69/Jenkinsfile'
+                git branch: 'main', url: 'https://github.com/Armani69/Jenkinsfile.git'
             }
         }
 
